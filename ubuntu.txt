@@ -1,0 +1,19 @@
+sudo apt update
+sudo apt install python3-pip python3-venv -y
+mkdir trading
+cd trading
+python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip setuptools wheel
+pip install pandas numpy yfinance ta requests
+
+
+
+sudo apt update && \
+sudo apt install python3-pip python3-venv -y && \
+mkdir -p ~/trading-scanner && \
+cd ~/trading-scanner && \
+python3 -m venv venv && \
+source venv/bin/activate && \
+pip install --upgrade pip setuptools wheel && \
+pip install pandas numpy yfinance ta requests
