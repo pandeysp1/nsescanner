@@ -16,4 +16,4 @@ cd ~/trading-scanner && \
 python3 -m venv venv && \
 source venv/bin/activate && \
 pip install --upgrade pip setuptools wheel && \
-pip install pandas numpy yfinance ta requests
+pip install pandas numpy yfinance ta requests mplfinance
